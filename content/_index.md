@@ -3,8 +3,8 @@ title: Lee JinYoung
 enableToc: false
 ---
 ### Contact Me
-- [Naver Mail](mailto:dlwlsdud618@naver.com)
-- [Gmail](mailto:lee.jinyoung.dev@gmail.com)  
+- dlwlsdud618@naver.com
+- lee.jinyoung.dev@gmail.com  
 - [GITHUB](https://github.com/Lee-Jin-Young)
 
 ### My Project
