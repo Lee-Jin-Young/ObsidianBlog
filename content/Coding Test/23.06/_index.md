@@ -1,10 +1,11 @@
 ---
 bookCollapseSection: true
+title: 06월
 ---
 # 6월
 
-- [[Coding Test/23.06/23.06.01 - 23.06.04/_index|1주차]]
-- [[Coding Test/23.06/23.06.05 - 23.06.11/_index|2주차]]
-- [[Coding Test/23.06/23.06.12 - 23.06.18/_index|3주차]]
+- [1주차](Coding Test/23.06/1주차/_index.md)
+- [2주차](Coding Test/23.06/2주차/_index.md)
+- [3주차](Coding Test/23.06/3주차/_index.md)
 - 4주차
 - 5주차

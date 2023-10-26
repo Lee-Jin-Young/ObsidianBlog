@@ -1,9 +1,10 @@
 ---
 bookCollapseSection: true
+title: 10월
 ---
 # 10월
 
-- [[Coding Test/23.10/23.10.02 - 23.10.08/_index|1주차]]
-- [[Coding Test/23.10/23.10.09 - 23.10.15/_index|2주차]]
-- [[Coding Test/23.10/23.10.16 - 23.10.22/_index|3주차]]
-- 4주차
+- [1주차](Coding%20Test/23.10/1주차/%5Findex.md)
+- [2주차](Coding%20Test/23.10/2주차/%5Findex.md)
+- [3주차](Coding%20Test/23.10/3주차/%5Findex.md)
+- [4주차](Coding%20Test/23.10/4주차/%5Findex.md)
