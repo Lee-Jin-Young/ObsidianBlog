@@ -63,4 +63,5 @@ class Solution {
 ### 관련개념 학습
 [String](Summary/String.md)
 
-[StringBuilder Buffer](Summary/StringBuilder%20%Buffer.md)
+[StringBuilder / StringBuffer](Summary/StringBuilder%20Buffer.md)
+[StringBuilder / StringBuffer](Summary/StringBuilder Buffer.md)
