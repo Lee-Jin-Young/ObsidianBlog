@@ -7,4 +7,4 @@ title: 07월
 - 1주차
 - 2주차
 - 3주차
-- [4주차](Coding%20Test/23.07/4주차/_index.md)
+- [4주차](Coding%20Test/23.07/4주차/%5Findex.md)
