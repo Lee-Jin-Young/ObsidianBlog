@@ -64,4 +64,3 @@ class Solution {
 [String](Summary/String.md)
 
 [StringBuilder / StringBuffer](Summary/StringBuilder%20Buffer.md)
-[StringBuilder / StringBuffer](Summary/StringBuilder Buffer.md)
