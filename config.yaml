@@ -34,7 +34,7 @@ params:
   title: Blog
 
   # OPTIONAL: custom favicon location
-   favicon: 'static/svg/favicon.svg'
+  # favicon: "static/svg/favicon.svg"
 
   # whether to display on-hover link preview cards
   enableLinkPreview: true
