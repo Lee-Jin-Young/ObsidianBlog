@@ -1,17 +1,17 @@
 :root {
     --light: #ffffff;
-    --dark: #1e1e21;
-    --secondary: #363453;
+    --dark: #000000;
+    --secondary: #4039CB;
     --tertiary: #3842ff;
     --visited: #afbfc9;
-    --primary: #c5f282;
-    --gray: #767E99;
+    --primary: #2B36DA;
+    --gray: #555B6E;
     --lightgray: #A9B1CC;
     --outlinegray: #464B5B;
     --million-progress-bar-color: var(--secondary);
     --highlighted: #4656ff88;
-    --header: #6775A3;
-    --title: #6775A3;
+    --header: #B5CCFF;
+    --title: #2B36DA;
     --scrollbar: gray;
     --scrollbar-track: #DDD;
 }
@@ -22,13 +22,13 @@
     --secondary: #A9A1FF !important;
     --visited: #99caff !important;
     --tertiary: #92a8ff !important;
-    --primary: #828cf5 !important;
-    --gray: #A9B1CC !important;
+    --primary: #6875FF !important;
+    --gray: #E7E7E7 !important;
     --lightgray: #767E99 !important;
     --outlinegray: #464B5B !important;
     --highlighted: #574010;
-    --header: #a1b7ff;
-    --title: #a1b7ff;
+    --header: #5972ce;
+    --title: #6875FF;
     --scrollbar: rgb(177, 177, 177);
     --scrollbar-track: rgb(51, 51, 51);
 }
