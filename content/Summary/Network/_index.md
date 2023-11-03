@@ -1,9 +1,7 @@
 ---
 bookCollapseSection: true
-title: Summary
+title: Network
 ---
-# Summary
-
 {{
 
 }}
