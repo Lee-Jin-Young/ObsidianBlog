@@ -96,6 +96,12 @@ pre::-webkit-scrollbar {
     font-weight: bold;
 }
 
+.markdown hr{
+    height:1px;
+    border:none;
+    // background:var(--gray-200)
+}
+
 .title {
     color: var(--title);
     font-size: 3rem;
