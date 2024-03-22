@@ -1,22 +1,20 @@
 ---
 날짜: 2023-10-28
 사용언어: Java
-시험:
-  - 프로그래머스 Lv.0
-학습정도:
-  - 상
+시험: 프로그래머스 Lv.0
+학습정도: 상
 정답률: 89
 문제 URL: https://school.programmers.co.kr/learn/courses/30/lessons/181874
 tags:
   - String
 ---
-|           |                                                                  |
-| --------- | ---------------------------------------------------------------- |
-| 날짜      | 2023-10-28                                                       |
-| 사용 언어 | Java                                                             |
-| 문제 유형 | String                                                           |
+|        |                                                                  |
+| ------ | ---------------------------------------------------------------- |
+| 날짜     | 2023-10-28                                                       |
+| 사용 언어  | Java                                                             |
+| 문제 유형  | String                                                           |
 | 정답률    | 89%                                                              |
-| 문제 URL  | https://school.programmers.co.kr/learn/courses/30/lessons/181874 |
+| 문제 URL | https://school.programmers.co.kr/learn/courses/30/lessons/181874 |
 
 ### 문제
 
