@@ -19,7 +19,7 @@ enableToc: false
 [인프런](Inflearn)
 
 ### 코딩테스트 정리
-[Coding Test](Coding%Test)
+[Coding Test](Coding%20Test)
 
 
 ### 이론 정리
