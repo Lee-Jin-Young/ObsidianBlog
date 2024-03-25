@@ -4,7 +4,7 @@ enableToc: false
 ---
 ## Contact Me
 - dlwlsdud618@naver.com
-- lee.jinyoung.dev@gmail.com  
+- jinyounglee.dev@gmail.com  
 - [GITHUB](https://github.com/Lee-Jin-Young)
 
 
