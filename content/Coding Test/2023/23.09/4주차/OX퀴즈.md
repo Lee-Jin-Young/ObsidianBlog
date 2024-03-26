@@ -4,7 +4,7 @@
   - 프로그래머스 Lv.0
 사용언어: Java
 정답률: 66
-URL: https://school.programmers.co.kr/learn/courses/30/lessons/120907#
+문제 URL:https://school.programmers.co.kr/learn/courses/30/lessons/120907#
 tags:
   - 배열
   - 반복문
