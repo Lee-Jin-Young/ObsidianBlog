@@ -97,6 +97,6 @@ class Solution {
 ---
 ## 관련개념 학습
 
-[String](Summary/String.md)
+[String](String.md)
 
-[Arrays](Summary/Arrays.md)
+[Arrays](Arrays.md)

@@ -65,4 +65,4 @@ class Solution {
 ---
 ### 관련개념 학습
 
-[Arrays](Summary/Arrays.md)
+[Arrays](Arrays.md)
