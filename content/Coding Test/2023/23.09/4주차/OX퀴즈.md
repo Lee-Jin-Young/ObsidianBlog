@@ -93,6 +93,6 @@ quiz는 ["X","O"]
 ---
 ## 관련개념 학습
 
-[Arrays](Summary/Arrays.md)
+[Arrays](Arrays.md)
 
 [문자열 계산하기](문자열%20계산하기.md)

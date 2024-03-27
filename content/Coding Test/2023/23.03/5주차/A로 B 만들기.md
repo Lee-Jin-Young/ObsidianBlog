@@ -9,7 +9,7 @@
 정답률: 85
 tags:
   - 배열
-  - String
+  - 문자열
 ---
 
 ## 문제
@@ -97,6 +97,6 @@ class Solution {
 ---
 ## 관련개념 학습
 
-[String](Summary/String.md)
+[String](String.md)
 
-[Arrays](Summary/Arrays.md)
+[Arrays](Arrays.md)
