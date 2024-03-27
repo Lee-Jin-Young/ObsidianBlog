@@ -8,15 +8,15 @@
 정답률: 89
 문제 URL: https://school.programmers.co.kr/learn/courses/30/lessons/181863
 tags:
-  - String
+  - 문자열
 ---
-|           |                                                                  |
-| --------- | ---------------------------------------------------------------- |
-| 날짜      | 2023-06-13                                                       |
-| 사용 언어 | Java                                                             |
-| 문제 유형 | String                                                           |
+|        |                                                                  |
+| ------ | ---------------------------------------------------------------- |
+| 날짜     | 2023-06-13                                                       |
+| 사용 언어  | Java                                                             |
+| 문제 유형  | 문자열                                                              |
 | 정답률    | 89%                                                              |
-| 문제 URL  | https://school.programmers.co.kr/learn/courses/30/lessons/181863 |
+| 문제 URL | https://school.programmers.co.kr/learn/courses/30/lessons/181863 |
 
 ### 문제
 
