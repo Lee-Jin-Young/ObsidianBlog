@@ -1,5 +1,4 @@
 ---
 bookCollapseSection: true
-title: Java
+title: 백트래킹(Backtracking)
 ---
-{{<section>}}
