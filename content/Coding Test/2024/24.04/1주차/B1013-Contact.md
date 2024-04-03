@@ -4,15 +4,15 @@
 시험: 
 학습정도: 
 정답률: 
-문제 URL: https://www.acmicpc.net/problem/
+문제 URL: https://www.acmicpc.net/problem/1013
 tags:
 ---
-|        |                                  |
-| ------ | -------------------------------- |
-| 날짜     | 2024-00-00                       |
-| 사용 언어  |                                  |
-| 문제 유형  |                                  |
-| 문제 URL | https://www.acmicpc.net/problem/ |
+|        |                                      |
+| ------ | ------------------------------------ |
+| 날짜     | 2024-00-00                           |
+| 사용 언어  |                                      |
+| 문제 유형  |                                      |
+| 문제 URL | https://www.acmicpc.net/problem/1013 |
 
 
 
