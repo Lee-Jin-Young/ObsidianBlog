@@ -1,0 +1,28 @@
+{
+	"nodes":[
+		{"id":"981a34aa8e03223f","x":-331,"y":-129,"width":151,"height":129,"color":"2","type":"text","text":"이메일 인증을 했다"},
+		{"id":"1f50457e6b788b06","x":-80,"y":-129,"width":250,"height":60,"color":"2","type":"text","text":"회원가입 화면이 나왔다."},
+		{"id":"ba4a159e973822bb","x":600,"y":-129,"width":250,"height":60,"color":"2","type":"text","text":"로그인을 했다"},
+		{"id":"6371a14f23a8f729","x":276,"y":-129,"width":250,"height":60,"color":"2","type":"text","text":"회원가입을 했다"},
+		{"id":"87a1c97147da8055","x":948,"y":-129,"width":250,"height":60,"color":"2","type":"text","text":"로그아웃을 했다"},
+		{"id":"949b3f0eb020a8cd","x":948,"y":20,"width":250,"height":60,"color":"2","type":"text","text":"주소를 변경했다."},
+		{"id":"458e9a7352c3888d","x":948,"y":155,"width":250,"height":60,"color":"2","type":"text","text":"전화번호를 변경했다."},
+		{"id":"5e752044e8373b3b","x":948,"y":280,"width":250,"height":60,"color":"2","type":"text","text":"비밀번호를 변경했다."},
+		{"id":"3da253592f4ca035","x":-361,"y":920,"width":250,"height":60,"color":"2","type":"text","text":"상품 종류가 선택되었다"},
+		{"id":"0f30505e2032f672","x":-66,"y":920,"width":250,"height":60,"color":"2","type":"text","text":"상품리스트가 조회되었다"},
+		{"id":"d88c0f267c6189d3","x":230,"y":920,"width":250,"height":60,"color":"2","type":"text","text":"상품을 클릭 했다."},
+		{"id":"5d27e0af475002fe","x":529,"y":920,"width":250,"height":60,"color":"2","type":"text","text":"상품 세부 정보가 조회되었다."},
+		{"id":"c58134480fb5421b","x":880,"y":920,"width":250,"height":60,"color":"2","type":"text","text":"구매 할 상품의 옵션을 선택하였다."},
+		{"id":"39488440f37c4578","x":301,"y":1520,"width":250,"height":60,"color":"2","type":"text","text":"배송 되었다."},
+		{"id":"c1ef237c18c55633","x":601,"y":1520,"width":250,"height":60,"color":"2","type":"text","text":"배송 완료 되었다."},
+		{"id":"1ed7a4033cd00778","x":921,"y":1520,"width":250,"height":60,"color":"2","type":"text","text":"상품 반품하였다."},
+		{"id":"16a6f7223352d64a","x":-351,"y":1520,"width":250,"height":60,"color":"2","type":"text","text":"주문 내역을 조회하였다."},
+		{"id":"ebf5c63d08258bbe","x":-19,"y":1520,"width":250,"height":60,"color":"2","type":"text","text":"주문 취소하였다."},
+		{"id":"b412202fbabaff93","x":1198,"y":920,"width":250,"height":60,"color":"2","type":"text","text":"상품을 주문하였다."},
+		{"id":"5e440dbf2d82eb71","x":1198,"y":1040,"width":250,"height":60,"color":"2","type":"text","text":"장바구니에 등록하였다"},
+		{"id":"16238f456dd41af5","x":-361,"y":1160,"width":250,"height":60,"color":"2","type":"text","text":"장바구니를 조회하였다."},
+		{"id":"9dab94c67448b3b1","x":-66,"y":1280,"width":250,"height":60,"color":"2","type":"text","text":"장바구니에서 삭제하였다."},
+		{"id":"daa7107fc28494a5","x":-66,"y":1160,"width":250,"height":60,"color":"2","type":"text","text":"장바구니 상품의 옵션을 변경하였다."}
+	],
+	"edges":[]
+}

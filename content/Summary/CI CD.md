@@ -2,8 +2,6 @@
 tags:
   - etc
 ---
-
-
 ### CI (Continuous Integration)
 
 - 지속적 통합
