@@ -29,12 +29,72 @@ bookCollapseSection: true
 - [ ] 1,2주차 Basic 90%완료
 
 ---
-마지막 정리
----
-#### Q. 오늘 진행된 강의에서 학습한 내용은 무엇인가요?
-- Docker, Spring Security, JWT
+#### 이번 주 항해 취업 리부트코스에서 내가 구현한 기능은 무엇인가요?
+- 계층형 구조: 기존에 사용한 방식으로 각 계층별로 패키지를 구분하여 개발하는 방식.
+- 도메인 구조: 각 도메인 별로 디렉터리를 나누어 관리하는 방식.
 
-#### Q. 이번 주 진행된 팀 스터디에서 얻은 인사이트는 무엇인가요?
+1. **계층형 구조의 장단점:**
+    - 장점:
+        - 전통적이고 익숙한 구조로 개발자들에게 친숙함.
+        - 각 계층별로 역할이 명확히 구분되어 유지보수가 용이함.
+    - 단점:
+        - 도메인이 늘어날수록 패키지 구조가 복잡해질 수 있음.
+        - MSA와 같이 도메인 별로 분리되는 아키텍처 전환 시에는 유연성 부족할 수 있음.
+
+2. **도메인 구조의 장단점:**
+    - 장점:
+        - MSA와 같이 도메인 별로 분리되는 아키텍처 전환에 유리함.
+        - 각 도메인별로 모듈화되어 재사용성이 높아짐.
+    - 단점:
+        - 처음에는 익숙하지 않을 수 있고, 변화에 대한 이해가 필요함.
+        - 전통적인 계층형 구조에 비해 초기 설정과 구현이 조금 더 복잡할 수 있음.
+
+- 결론
+	- 추후 MSA로 변경 될 예정인 만큼 확장성을 위해 도메인 구조로 설계하기로 함
+
+
+#### 이번 주 겪은 트러블 슈팅이 있다면 무엇인가요?
+- 문제 발생
+	- Postman에서 URI 요청 시에 상태 코드가 401(Unauthorized)로 반환되는 문제 발생
+	- CORS(Cross-Origin Resource Sharing) 설정이 제대로 되어 있지 않아서 발생한 문제였다.
+
+- 해결 방안
+	- WebMvcConfigurer를 통한 설정과 Spring Security중 하나를 활용하여 설정
+	- Spring Security가 추후 다른 보안 설정시에 조금 더 유리한 듯 하여 이를 활용하기로 함
+	- 온전히 이해 하는 것은 어려워 일단 disable해 둔 후 추후에 다시 리팩토링 할 예정
+``` java
+@Configuration  
+@EnableWebSecurity  
+@RequiredArgsConstructor  
+public class SecurityConfig {  
+    @Bean  
+    public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {  
+        http  
+                .csrf((csrf) -> csrf.disable())  
+                .authorizeHttpRequests(authorize -> authorize.anyRequest().permitAll()) // 모든 요청에 대해 인증 없이 접근 허용  
+                .securityMatcher(new AntPathRequestMatcher("/**")); // 모든 경로에 대한 보안 매처 설정  
+        return http.build();  
+    }  
+  
+  
+    @Bean  
+    public CorsConfigurationSource corsConfigurationSource() {  
+        CorsConfiguration configuration = new CorsConfiguration();  
+  
+        // 모든 출처 (*) 를 허용  
+        configuration.addAllowedOriginPattern("*");  
+        configuration.addAllowedHeader("*");  
+        configuration.addAllowedMethod("*");  
+        configuration.setAllowCredentials(false);  
+  
+        UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();  
+        source.registerCorsConfiguration("/**", configuration);  
+  
+        return source;  
+    }  
+```
+
+#### Q.  이번 주 진행된 개인 프로젝트에서 얻은 인사이트는 무엇인가요?
 - 테스트 코드등의 작성도 중요하다.
 
 ---
